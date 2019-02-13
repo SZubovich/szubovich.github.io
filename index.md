@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## About me
+
+My name is Sergey. I have finished education at BSUIR.
 
 You can use the [editor on GitHub](https://github.com/SZubovich/szubovich.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
