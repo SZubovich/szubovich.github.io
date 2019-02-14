@@ -1,37 +1,23 @@
-## About me
+ ## About me
 
-My name is Sergey. I have finished education at BSUIR.
+My name is Sergey. I have been interested in computers and technologies since I got my first computer at 7 years old. When I was 15 years old I actively participated in the creation and development of the network in our house. Then I started to interest in programming. Among the favorite areas: programming microcontroller units, gamedev and web programming. My favorite languages are Assembler, C and C#.
 
-You can use the [editor on GitHub](https://github.com/SZubovich/szubovich.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Strengths
+## Strengths
 
 1. High-organised
 2. Quick learner
 3. Confident
+
+ ## Education
+ 
+ 2008-2012 Minsk state higher radioengineering college. Microelectronic.
+ 2013-2017 Belarussian state university of informatic and radioelectronic. Computers, Systems and Networks.
+ 2017-2019 Belarussian state university of informatic and radioelectronic. Virtualization technologies.
+ 
+ ## Interests
+ 
+ Programming, basketball, reading.
+ 
+ ## Executed tasks
+ 
+ 
