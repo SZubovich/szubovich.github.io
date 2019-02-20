@@ -18,6 +18,19 @@ My name is Sergey. I have been interested in computers and technologies since I 
  
 Programming, basketball, reading.
  
-### Executed tasks
+### Completed  tasks
  
- 
+## Tasks on padawans.net:
+- [Fancy Calculator](https://github.com/SZubovich/FancyCalc)
+- [Padawans Task 1](https://github.com/SZubovich/PadawansTask1)
+- [Padawans Task 2](https://github.com/SZubovich/PadawansTask2)
+- [Padawans Task 3](https://github.com/SZubovich/PadawansTask3)
+- [Padawans Task 4](https://github.com/SZubovich/PadawansTask4)
+- [Padawans Task 5](https://github.com/SZubovich/PadawansTask5)
+- [Padawans Task 6](https://github.com/SZubovich/PadawansTask6)
+- [Padawans Task 7](https://github.com/SZubovich/PadawansTask7)
+- [Padawans Task 8](https://github.com/SZubovich/PadawansTask8)
+- [Padawans Task 9](https://github.com/SZubovich/PadawansTask9)
+- [Padawans Task 10](https://github.com/SZubovich/PadawansTask10)
+- [Padawans Task 12](https://github.com/SZubovich/PadawansTask12)
+- [Padawans Task 13](https://github.com/SZubovich/PadawansTask13)
