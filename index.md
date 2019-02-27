@@ -42,6 +42,7 @@ Programming, basketball, reading.
 - [Padawans Task 8](https://github.com/SZubovich/PadawansTask8)
 - [Padawans Task 9](https://github.com/SZubovich/PadawansTask9)
 - [Padawans Task 10](https://github.com/SZubovich/PadawansTask10)
-- [Padawans Task 11](https://github.com/SZubovich/PadawansTask11)(failed in one test)
+- [Padawans Task 11](https://github.com/SZubovich/PadawansTask11)
 - [Padawans Task 12](https://github.com/SZubovich/PadawansTask12)
 - [Padawans Task 13](https://github.com/SZubovich/PadawansTask13)
+- [Padawans Task 15](https://github.com/SZubovich/PadawansTask15)
