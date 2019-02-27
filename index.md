@@ -1,5 +1,4 @@
 
-
 ## About myself
 
 My name is Sergey. I have been interested in computers and technologies since I got my first computer at 7 years. When I was 15 years old I actively participated in the creation and development of the network in our house. Then I started to interest in programming. Among the favorite areas: programming microcontroller units, gamedev and web programming. My favorite languages are Assembler, C and C#.
@@ -27,7 +26,10 @@ Programming, basketball, reading.
 
 ### Basic collections task:
 [Fibonacci Generator](https://github.com/SZubovich/FibonacciGenerator)
- 
+
+### Demo-project:
+[Tic-Tac-Toe Game](https://github.com/SZubovich/TicTacToeGame)
+
 ### Tasks on padawans.net:
 - [Fancy Calculator](https://github.com/SZubovich/FancyCalc)
 - [Padawans Task 1](https://github.com/SZubovich/PadawansTask1)
