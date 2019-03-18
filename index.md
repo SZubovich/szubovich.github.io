@@ -1,4 +1,4 @@
-![photo](/untitled.png )
+<img src="/untitled.png" alt="photo" height="300px" width="auto">
 ## About myself
 
 My name is Siarhei. I have been interested in computers and technologies since I got my first computer at 7 years. When I was 15 years old I actively participated in the creation and development of the network in our house. Then I started to interest in programming. Among the favorite areas: programming microcontroller units, gamedev and web programming. My favorite languages are Assembler, C and C#.
