@@ -21,6 +21,9 @@ Programming, basketball, reading.
  
 ## Completed  tasks:
 
+###Homeworks:
+[NET.S.2018.Zubovich.01](https://github.com/SZubovich/NET.S.2018.Zubovich.01)
+
 ### Codewars account:
 [Account link](https://www.codewars.com/users/Firewind)
 
