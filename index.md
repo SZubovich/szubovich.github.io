@@ -23,6 +23,8 @@ Programming, basketball, reading.
 
 ### Homeworks:
 [NET.S.2019.Zubovich.01](https://github.com/SZubovich/NET.S.2019.Zubovich.01)
+[NET.S.2019.Zubovich.02](https://github.com/SZubovich/NET.S.2019.Zubovich.02)
+[NET.S.2019.Zubovich.03](https://github.com/SZubovich/NET.S.2019.Zubovich.03)
 
 ### Codewars account:
 [Account link](https://www.codewars.com/users/Firewind)
