@@ -1,6 +1,3 @@
-<p align="center"><img src="/untitled.png" alt="photo" height="220px" width="auto" style="border-radius:125;"></p>
-## About myself
-
 My name is Siarhei. I have been interested in computers and technologies since I got my first computer at 7 years. When I was 15 years old I actively participated in the creation and development of the network in our house. Then I started to interest in programming. Among the favorite areas: programming microcontroller units, gamedev and web programming. My favorite languages are Assembler, C and C#.
 
 ## Strengths
@@ -25,6 +22,10 @@ Programming, basketball, reading.
 - [NET.S.2019.Zubovich.01](https://github.com/SZubovich/NET.S.2019.Zubovich.01)
 - [NET.S.2019.Zubovich.02](https://github.com/SZubovich/NET.S.2019.Zubovich.02)
 - [NET.S.2019.Zubovich.03](https://github.com/SZubovich/NET.S.2019.Zubovich.03)
+- [NET.S.2019.Zubovich.07](https://github.com/SZubovich/NET.S.2019.Zubovich.07)
+- [NET.S.2019.Zubovich.08](https://github.com/SZubovich/NET.S.2019.Zubovich.08)
+- [NET.S.2019.Zubovich.11](https://github.com/SZubovich/NET.S.2019.Zubovich.11)
+- [NET.S.2019.Zubovich.12](https://github.com/SZubovich/NET.S.2019.Zubovich.12)
 
 ### Codewars account:
 [Account link](https://www.codewars.com/users/Firewind)
