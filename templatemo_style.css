@@ -89,7 +89,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 
 #site_title { float: left; }
 #site_title h1 { margin: 0; padding: 0; }
-#site_title h1 a { display: block; width: 180px; height: 40px; color: #fff; text-indent: -10000px; background: url(images/templatemo_logo.png)  no-repeat top left }
+#site_title h1 a { display: block; width: 220px; height: 40px; color: #fff; text-indent: -10000px; background: url(images/templatemo_logo.png)  no-repeat top left }
 
 #search_box { float: right; margin-top: 20px; width: 240px; height: 24px }
 #search_box form { clear: both; width: 240px; height: 24px; padding: 0; margin: 0 } 

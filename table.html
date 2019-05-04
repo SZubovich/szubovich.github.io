@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Light Gray - Contact Form</title>
+<title>Data Structures Table</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <!-- templatemo 304 light gray -->
@@ -100,8 +100,8 @@ $(function() {
                     <td>O(1)</td>
                     <td>n/a</td>
                     <td>O(n)</td>
+                    <td>О(1)</td>
                     <td>O(n)</td>
-                    <td>O(1)</td>
                     <td></td>
                 </tr>
                 <tr>
@@ -115,15 +115,60 @@ $(function() {
                 </tr>
                 <tr>
                     <td><code>Collection&lt;T&gt;</code></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>O(1)</td>
+                    <td>n/a</td>
+                    <td>O(n)</td>
+                    <td>О(1)</td>
+                    <td>O(n)</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><code>BindingList&lt;T&gt;</code></td>
+                    <td>O(1)</td>
+                    <td>n/a</td>
+                    <td>O(n)</td>
+                    <td>О(1)</td>
+                    <td>O(n)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>ObservableCollection&lt;T&gt;</code></td>
+                    <td>O(1)</td>
+                    <td>n/a</td>
+                    <td>O(n)</td>
+                    <td>О(1)</td>
+                    <td>O(n)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>KeyedCollection&lt;TKey,TItem&gt;</code></td>
+                    <td>O(1)</td>
+                    <td>O(1)</td>
+                    <td>O(n)</td>
+                    <td>О(1)</td>
+                    <td>O(n)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>ReadOnlyCollection&lt;T&gt;</code></td>
+                    <td>O(1)</td>
+                    <td>n/a</td>
+                    <td>O(n)</td>
+                    <td>n/a</td>
+                    <td>n/a</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>ReadOnlyObservableCollection&lt;T&gt;</code></td>
+                    <td>O(1)</td>
+                    <td>n/a</td>
+                    <td>O(n)</td>
+                    <td>n/a</td>
+                    <td>n/a</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>Словари</strong></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -132,39 +177,203 @@ $(function() {
                     <td></td>
                 </tr>
                 <tr>
+                    <td><code>Dictionary&lt;TKey, TValue&gt;</code></td>
+                    <td>n/a</td>
+                    <td>O(1)</td>
+                    <td>O(n)</td>
+                    <td>О(1)</td>
+                    <td>O(n)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>SortedList&lt;T&gt;</code></td>
+                    <td>n/a</td>
+                    <td>O(log n)</td>
+                    <td>O(n)</td>
+                    <td>О(1)</td>
+                    <td>O(n)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>SortedDictionary&lt;TKey,TValue&gt;</code></td>
+                    <td>n/a</td>
+                    <td>O(log n)</td>
+                    <td>O(n)</td>
+                    <td>O(log n)</td>
+                    <td>O(n)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>ReadOnlyDictionary&lt;T&gt;</code></td>
+                    <td>n/a</td>
+                    <td>O(1)</td>
+                    <td>O(n)</td>
+                    <td>n/a</td>
+                    <td>n/a</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>Множества</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>HashSet&lt;T&gt;</code></td>
+                    <td>n/a</td>
+                    <td>n/a</td>
+                    <td>O(1)</td>
+                    <td>O(1)</td>
+                    <td>O(1)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>SortedSet&lt;T&gt;</code></td>
+                    <td>n/a</td>
+                    <td>n/a</td>
+                    <td>O(log n)</td>
+                    <td>O(log n)</td>
+                    <td>O(1)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>Очередь, стек</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>Queue&lt;T&gt;</code></td>
+                    <td>n/a</td>
+                    <td>n/a</td>
+                    <td>O(n)</td>
+                    <td>O(1)</td>
+                    <td>O(1)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>Stack&lt;T&gt;</code></td>
+                    <td>n/a</td>
+                    <td>n/a</td>
+                    <td>O(n)</td>
+                    <td>O(1)</td>
+                    <td>O(1)</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <ul>
+            <li><code>*</code>Вставка O(1) для уже упорядоченных данных.</li>
+        </ul>
+
+        <table border="2px" bordercolor="cyan"style="margin-left:200px;margin-bottom:50px;">
+            <thead>
+                <tr>
+                    <th>Collection</th>
+                    <th>Underlying structure</th>
+                    <th>Lookup strategy</th>
+                    <th>Ordering</th>
+                    <th>Contiguous storage</th>
+                    <th>Data access</th>
+                    <th>Exposes Key &amp; Value collection</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Списки</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>T[]</code></td>
+                    <td>n/a</td>
+                    <td>n/a</td>
+                    <td>Unsorted</td>
+                    <td></td>
+                    <td>Index</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>List&lt;T&gt;</code></td>
+                    <td>array</td>
+                    <td>LinearSearch</td>
+                    <td>Unsorted</td>
+                    <td></td>
+                    <td>Index</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>LinkedList&lt;T&gt;</code></td>
+                    <td>LinkedListNode</td>
+                    <td>LinearSearch</td>
+                    <td>Unsorted</td>
+                    <td></td>
+                    <td>Value?</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>Collection&lt;T&gt;</code></td>
+                    <td>List&lt;T&gt;</td>
+                    <td>LinearSearch</td>
+                    <td>Unsorted</td>
+                    <td></td>
+                    <td>Index</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><code>BindingList&lt;T&gt;</code></td>
+                    <td>List&lt;T&gt;</td>
+                    <td>LinearSearch</td>
+                    <td>Unsorted</td>
+                    <td></td>
+                    <td>Index</td>
+                    <td></td>
+                </tr>
+                <tr>
                     <td><code>ObservableCollection&lt;T&gt;</code></td>
+                    <td>List&lt;T&gt;</td>
+                    <td>LinearSearch</td>
+                    <td>Unsorted</td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Index</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><code>KeyCollection&lt;TKey,TItem&gt;</code></td>
                     <td></td>
+                    <td>Lookup dictionary</td>
+                    <td>Unsorted</td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Index, Key</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><code>ReadOnlyCollection&lt;T&gt;</code></td>
+                    <td>List&lt;T&gt;</td>
+                    <td>LinearSearch</td>
+                    <td>Unsorted</td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Index</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><code>ReadOnlyObservableCollection&lt;T&gt;</code></td>
+                    <td>List&lt;T&gt;</td>
+                    <td>LinearSearch</td>
+                    <td>Unsorted</td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Index</td>
                     <td></td>
                 </tr>
                 <tr>
@@ -187,21 +396,21 @@ $(function() {
                 </tr>
                 <tr>
                     <td><code>SortedList&lt;T&gt;</code></td>
-                    <td>O(1)</td>
-                    <td>O(log n)</td>
-                    <td>O(n)</td>
-                    <td>O(n)*</td>
-                    <td>O(n)</td>
-                    <td></td>
+                    <td>2 arrays</td>
+                    <td>Binary search</td>
+                    <td>Sorted</td>
+                    <td>Yes</td>
+                    <td>Key, Index</td>
+                    <td>Yes</td>
                 </tr>
                 <tr>
                     <td><code>SortedDictionary&lt;TKey,TValue&gt;</code></td>
-                    <td>n/a</td>
-                    <td>O(log n)</td>
-                    <td>O(n)</td>
-                    <td>O(log n)</td>
-                    <td>O(log n)</td>
-                    <td></td>
+                    <td>BST</td>
+                    <td>Binary search</td>
+                    <td>Sorted</td>
+                    <td>No</td>
+                    <td>Key</td>
+                    <td>Yes</td>
                 </tr>
                 <tr>
                     <td><code>ReadOnlyDictionary&lt;T&gt;</code></td>
@@ -240,6 +449,15 @@ $(function() {
                     <td></td>
                 </tr>
                 <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
                     <td><strong>Очередь, стек</strong></td>
                     <td></td>
                     <td></td>
@@ -250,242 +468,24 @@ $(function() {
                 </tr>
                 <tr>
                     <td><code>Queue&lt;T&gt;</code></td>
-                    <td>n/a</td>
-                    <td>n/a</td>
-                    <td>O(n)</td>
-                    <td>O(1)</td>
-                    <td>O(1)</td>
+                    <td>Сircular buffer</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><code>Stack&lt;T&gt;</code></td>
-                    <td>n/a</td>
-                    <td>n/a</td>
-                    <td>O(n)</td>
-                    <td>O(1)</td>
-                    <td>O(1)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                 </tr>
-            </tbody>
-        </table>
-
-                        <ul>
-                        <li><code>*</code>Вставка O(1) для уже упорядоченных данных.</li>
-                        </ul>
-
-                        <table border="2px" bordercolor="cyan"style="margin-left:200px;">
-                        <thead>
-                        <tr>
-                        <th>Collection</th>
-                        <th>Underlying structure</th>
-                        <th>Lookup strategy</th>
-                        <th>Ordering</th>
-                        <th>Contiguous storage</th>
-                        <th>Data access</th>
-                        <th>Exposes Key &amp; Value collection</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                        <td><strong>Списки</strong></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>T[]</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>List&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>LinkedList&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>Collection&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>BindingList&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>ObservableCollection&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>KeyCollection&lt;TKey,TItem&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>ReadOnlyCollection&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>ReadOnlyObservableCollection&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><strong>Словари</strong></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>Dictionary&lt;TKey, TValue&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>SortedList&lt;T&gt;</code></td>
-                        <td>2 arrays</td>
-                        <td>Binary search</td>
-                        <td>Sorted</td>
-                        <td>Yes</td>
-                        <td>Key, Index</td>
-                        <td>Yes</td>
-                        </tr>
-                        <tr>
-                        <td><code>SortedDictionary&lt;TKey,TValue&gt;</code></td>
-                        <td>BST</td>
-                        <td>Binary search</td>
-                        <td>Sorted</td>
-                        <td>No</td>
-                        <td>Key</td>
-                        <td>Yes</td>
-                        </tr>
-                        <tr>
-                        <td><code>ReadOnlyDictionary&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><strong>Множества</strong></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>HashSet&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>SortedSet&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><strong>Очередь, стек</strong></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>Queue&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <td><code>Stack&lt;T&gt;</code></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        </tbody>
-                        </table>
+        </tbody>
+    </table>
         </div>
 
         <div id="templatemo_footer_wrapper">
